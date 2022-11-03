@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+   <head>
+      <title>Contact Us</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <form id="quick-contact" class="contact-form col-md-3" method="post" action="mail.php">
+                  <input type="hidden" name="op" value="send">
+                  <div class="form-control">
+                     <input type="text" name="name" placeholder="Name" required=""> 
+                     <input type="text" name="phone" placeholder="Phone" required=""> 
+                     <input type="text" name="email" placeholder="Email" required=""> 
+                     <input type="text" name="suburb" placeholder="Suburb"  required="">
+                     <textarea  name="comments" placeholder="Description of services needed"></textarea>
+                     <input type="submit" id="btn_submit" name="submit" value="submit" style="margin-bottom:15px;">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
